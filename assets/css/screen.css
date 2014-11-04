@@ -1,0 +1,195 @@
+/*------------------------------------*\
+  $RESET
+\*------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*------------------------------------*\
+  $LAYOUT
+\*------------------------------------*/
+body {
+  font-family: "Vollkorn", Georgia, serif;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+  max-width: 720px; }
+
+.container {
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  width: 100%;
+  border: 1px solid #8E8E8E;
+  margin-top: 2em;
+  margin-right: 0.5em; }
+
+.home__content{
+  margin: 1em 1.5em 1em 1.5em;
+}
+
+.post__content {
+  margin: 2em 1.5em 1em 1.5em;
+}
+
+.home__content, .post__content{
+  padding: 1em;
+}
+
+.post__content__title {
+  display: inline; }
+
+.post__content__body {
+  margin: 1.5em 0 2em 0;
+  }
+
+/*------------------------------------*\
+  $HEADER
+\*------------------------------------*/
+.header__text {
+  margin: 0 auto;
+  text-align: center; }
+
+.header__text img {
+  height: 100px;
+  margin-top: 4em; }
+
+/*------------------------------------*\
+  $FOOTER
+\*------------------------------------*/
+.site-footer {
+  margin-top: 1em; }
+
+/*------------------------------------*\
+  $TYPE
+\*------------------------------------*/
+h2, h3, .chrystalize{
+  color: #121212;
+  font-family: "chrystalmedium";
+  font-size: 2em;
+  letter-spacing: 0.09em;
+}
+
+.post__content__title__date{
+  font-weight:100;
+  font-family:"Vollkorn";
+  font-size:0.4em;
+}
+
+h4{
+  font-weight: 200;
+  font-size: 1em;
+}
+
+a, a:visited {
+  text-decoration: underline;
+  color: #000; }
+
+a:hover {
+  color: #03A89E; }
+
+p {
+  color: #0d0d0d;
+  font-size: 1.1em;
+  line-height: 2.5em;
+  margin-bottom: 1em; }
+
+footer p {
+  font-size: 0.7em; }
+
+pre{
+  border: 1px solid #D9D9D9;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+.post__container pre {
+  margin-bottom: 1.5em; }
+
+p code{
+  border: 1px solid #D9D9D9;
+  margin: 0px 5px;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+code, pre{
+  font-size: 0.9em;
+  font-family: menlo, monotype;
+  background-color: #FAFAFA;
+}
+
+ol, ul{
+  padding-left: 2em;
+}
+
+.home__content ul{
+  margin-top:1em;
+}
+
+.home__content li{
+  list-style-type: none;
+}
+
+.post__content__body ul, .post__content__body ol{
+  margin-bottom: 2em;
+}
+
+.post__content__body ul ul{
+  margin-bottom: 0;
+}
+
+blockquote p{
+  font-style:italic;
+  padding-left:2em;
+}
+
+#content .post-title a{
+  text-decoration: none;
+}
+
+/*------------------------------------*\
+  $RESPONSIVE
+\*------------------------------------*/
+.post__content__body figure{
+  margin: 2em auto;
+  max-width: 75%;
+}
+
+.post__content__body figure img{
+  width:100%;
+  max-width:100%;
+}
+
+.post__content__body figcaption{
+  margin:1em 0;
+  text-align: center;
+}
+
+
+
