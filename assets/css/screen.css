@@ -148,6 +148,7 @@ p code{
 code, pre{
   font-size: 0.9em;
   font-family: menlo, monotype;
+  word-wrap:break-word;
   background-color: #FAFAFA;
 }
 
