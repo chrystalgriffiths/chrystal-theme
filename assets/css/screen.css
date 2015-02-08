@@ -133,7 +133,7 @@ pre{
   border: 1px solid #D9D9D9;
   margin: 20px 0;
   padding: 5px;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .post__container pre {
@@ -149,7 +149,9 @@ p code{
 
 code, pre{  
   font-family: menlo, monotype;
-  word-wrap:break-word;
+  line-height: 2.5em;
+  word-wrap:normal;
+  overflow:scroll;
   background-color: #FAFAFA;
 }
 
