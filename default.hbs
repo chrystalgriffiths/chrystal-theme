@@ -16,6 +16,8 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/devicons.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/font-awesome.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "fonts/chrystal/stylesheet.css"}}">
     <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
     
@@ -34,7 +36,7 @@
     {{{body}}}
 
     <footer class="site-footer clearfix">
-         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a>&#59; lessons from a trying developer &copy; {{date format="YYYY"}}</section>         
+         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a>&#59; <a href="/about">about</a> | lessons from a trying developer &copy; {{date format="YYYY"}}</section>         
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}

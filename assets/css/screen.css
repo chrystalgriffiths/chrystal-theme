@@ -180,10 +180,18 @@ blockquote p{
   padding-left:2em;
 }
 
-#content .post-title a{
+#content .post-title a, a.social-icon{
   text-decoration: none;
 }
 
+.devicons{
+  font-size:1.6em;
+  margin-right: 0.5em;
+}
+
+i.fa{
+  font-size:1.5em;
+}
 /*------------------------------------*\
   $RESPONSIVE
 \*------------------------------------*/
