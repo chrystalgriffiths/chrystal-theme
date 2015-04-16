@@ -84,7 +84,7 @@ body {
   $FOOTER
 \*------------------------------------*/
 .site-footer {
-  margin-top: 1em; }
+  margin-top: 4em; }
 
 /*------------------------------------*\
   $TYPE
@@ -165,6 +165,32 @@ ol, ul{
 
 .home__content li{
   list-style-type: none;
+}
+
+.post__navigation{
+  display:inline;
+  font-size:0.9em;
+}
+
+.post__navigation--left{
+  float:left;
+}
+
+.post__navigation--right{
+  float:right;
+}
+
+.post__navigation i.fa{
+  font-size:0.7em;
+  text-decoration:none;
+}
+
+.post__navigation i.fa-chevron-left{
+  padding-right:10px;
+}
+
+.post__navigation i.fa-chevron-right{
+  padding-left:10px;
 }
 
 .post__content__body ul, .post__content__body ol{

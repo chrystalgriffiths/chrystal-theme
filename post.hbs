@@ -6,7 +6,12 @@
     {{#post}}
       <h2 class="post__content__title">{{title}} <span class="post__content__title__date">{{date format="MM.DD.YY"}}</span></h2>
       <div class="post__content__body">{{content}}</div>
-      </div>
+      {{#prev_post}}
+        <p class="post__navigation post__navigation--left"><a href="{{url}}"><i class="fa fa-chevron-left"></i>{{title}}</a></p>
+      {{/prev_post}}
+      {{#next_post}}
+        <p class="post__navigation post__navigation--right"><a href="{{url}}">{{title}}<i class="fa fa-chevron-right"></i></a></p>
+      {{/next_post}}
     {{/post}}
   </div>
 </div>
