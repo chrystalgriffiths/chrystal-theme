@@ -43,7 +43,7 @@ body {
 
 .container {
   margin:0 auto;
-  width: 800px;
+  width: 570px;
 }
 
 .home__content{
@@ -123,7 +123,7 @@ a:hover {
 p {
   color: #0d0d0d;
   font-size: 1.1em;
-  line-height: 2.8em;
+  line-height: 1.5em;
   margin-bottom: 2em; }
 
 footer p {
