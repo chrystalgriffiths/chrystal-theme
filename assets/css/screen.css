@@ -80,9 +80,9 @@ body {
   $FOOTER
 \*------------------------------------*/
 .site-footer {
-  width:800px;
+  width:600px;
   margin:0 auto;
-  padding:4em 0 1em 0;
+  padding:4em 0 2em 0;
    }
 
 
@@ -223,7 +223,7 @@ i.fa{
   $RESPONSIVE
 \*------------------------------------*/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
 
   .container{
     width:100%;
